@@ -1,0 +1,8 @@
+/033 is a indicating for ANSI escape swquence
+[2j is for clearing the entire screen 
+[H is for taking the cursor up left to home position 
+
+if you write the [%d;%dH now you move the cursor to places 
+[? is for private mode settings 
+25 is a paramter refer to cursor settings
+1  make the cursor not visible for 3 seconds 
