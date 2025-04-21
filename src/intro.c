@@ -55,18 +55,31 @@ void intro (){
     clear_screen();
     type_text(GREEN"PlEASE ENTER YOUR NAME ",10);
     char s[50];
-    move_cursor(5,25);
+    move_cursor(0,30);
  
     scanf("%49s", s);
-    move_cursor(10,32);
+    
+
 char s1[100];
+clear_screen();
+move_cursor(13, 42);
 sprintf(s1, "welcome %s", s);
 
     type_text(s1,50);
     cursor_handle(500);
+  //  clear_screen();
+
+  int c;
+  while ((c = getchar()) != '\n' && c != EOF);  
+  clear_screen();
+    move_cursor(13, 42);
+    type_text("LOADING ....",50);
+    cursor_handle(500);
     clear_screen();
-
-
+    move_cursor(13, 42);
+    type_text("WELCOME TO MANSOURA SHELL",50);
+    cursor_handle(500);
+    clear_screen();
    
  
 }

@@ -1,6 +1,12 @@
-ahmed 
-sdhjsd
-dvf
-asdsjf
-ah 
-sdk
+README.md
+a.out
+headers
+mush
+notes about c
+output.text
+output.txt
+shell.c
+src
+test1.txt
+testing.c
+testing2.txt

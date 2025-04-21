@@ -8,4 +8,5 @@
 #include <sys/wait.h>
 #include <stdbool.h>
 void search_excutable(char **args );
+int  execute_command(char **args);
 #endif
