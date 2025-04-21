@@ -33,16 +33,14 @@ void bash_mode (char * argv ){
 int main(int argc, char *argv[])
 {
   signal(SIGINT, handle_signint);
-
+  intro();
+  clear_screen();
 if(argc>1){
   bash_mode(argv[1]);
   printf("this is a bash mode");
 }
   
 
-intro();
-clear_screen();
-  
 
  
  char **args;
